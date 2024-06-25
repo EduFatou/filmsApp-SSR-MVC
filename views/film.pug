@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title= title
+  body
+    h1= title
+    if poster
+      img(src=poster alt=title)
+    p
+      strong Director: 
+      | #{director}
+    p
+      strong Plot:
+      | #{plot}
+    a(href="/") Back to Home

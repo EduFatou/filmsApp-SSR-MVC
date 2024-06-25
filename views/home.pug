@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title Search Films
+  body
+    include header.pug
+    h1 Search Films
+    form(action="/film" method="POST")
+      input(type="text" name="title" placeholder="Film name" required)
+      button(type="submit") Search
+    include footer.pug
