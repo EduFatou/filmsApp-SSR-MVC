@@ -1,0 +1,30 @@
+{
+  "name": "filmsapp-ssr-mvc",
+  "version": "1.0.0",
+  "description": "films app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduFatou/filmsApp-SSR-MVC.git"
+  },
+  "author": "Eduardo Fatou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduFatou/filmsApp-SSR-MVC/issues"
+  },
+  "homepage": "https://github.com/EduFatou/filmsApp-SSR-MVC#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pug": "^3.0.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.4"
+  }
+}
